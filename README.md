@@ -51,7 +51,7 @@ Every app below is my own: designed, built, launched and maintained solo.
   <tr>
     <td align="center" valign="top">
       <h3><a href="https://growly.social"><img src="assets/icons/growly.png" width="72" alt="Growly icon"></a><br>Growly<br><sub>Threads scheduler for creators</sub></h3>
-      <p>Post on Threads every day without living in the app: recurring posting slots, a draft pool and per-post analytics.</p>
+      <p>Post on Threads every day without living in the app: recurring posting slots, a draft pool and per-post analytics. Multiple accounts and AI post ideas built in.</p>
       <code>Next.js</code> <code>Supabase</code> <code>Redis&nbsp;+&nbsp;BullMQ</code> <code>Threads&nbsp;API</code>
       <p><a href="https://growly.social">Website</a></p>
     </td>
