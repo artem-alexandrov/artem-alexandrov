@@ -1,54 +1,100 @@
+<p align="center">
+  <a href="https://aleksandrov.cv"><img src="assets/banner.png" width="720" alt="aleksandrov.cv: my portfolio is an iPad lock screen. Click to unlock."></a>
+</p>
+
 ## Hi, I'm Artem 👋
 
-iOS developer & indie maker. I build apps where the UX has to feel right — from cockpit-grade aviation tools to AI-powered creator software and pixel-art mobile games.
+Freelance iOS developer. I design, build and ship native iPhone apps in SwiftUI, from the first prototype to App Store release, subscriptions and growth.
 
-📍 Based wherever the laptop opens · ✉️ [alexandrovweb@gmail.com](mailto:alexandrovweb@gmail.com) · 💼 [LinkedIn](https://www.linkedin.com/in/artem-aleksandrov-ios/)
+Every app below is my own: designed, built, launched and maintained solo.
 
----
-
-### 🚀 What I'm shipping
-
-#### 🥬 [Fridgea](https://apps.apple.com/app/apple-store/id6756065960?pt=57180800&ct=github&mt=8) — smart fridge & shopping list
-Native iOS app that turns your fridge into a system: track items, get expiration push notifications, share lists with family via CloudKit, scan barcodes, import shopping lists from Notes, and generate recipes from what you already have (Vertex AI + on-device fallback on iOS 26+).
-
-`SwiftUI` · `CoreData + CloudKit` · `RevenueCat` · `Firebase` · `Vertex AI`
-
-#### 🧵 [Growly](https://growly.social) — Threads scheduler for serious creators
-Web app for creators who post on Threads. Define recurring posting slots, fill them from a draft pool, tag posts by topic for auto-matching, and review per-post analytics. Multi-account support, AI post ideas, and reliable scheduling with token refresh handled.
-
-`Next.js (App Router)` · `Supabase` · `Redis + BullMQ` · `Resend` · `Threads API`
-
-#### ✈️ [Pilot Test Zone](https://apps.apple.com/app/apple-store/id6741020820?pt=57180800&ct=github&mt=8) — PPL exam prep
-Flight-school-grade exam preparation with smart analytics, weak-topic detection, and an engaging UI built for daily practice.
-
-`SwiftUI` · `Core Data` · `App Store Connect API`
-
-#### 🦍 Caveman vs. Monkeys *(in development)*
-Pixel-art mobile game built in Swift. Short sessions, fast-paced, chaotic. More soon.
+🌐 [aleksandrov.cv](https://aleksandrov.cv) · 💼 [LinkedIn](https://www.linkedin.com/in/artem-aleksandrov-ios/) · 🧵 [Threads](https://www.threads.com/@artem.aleksandrovv) · 📍 Remote, CET · 🗣 English, Russian, Ukrainian
 
 ---
 
-### 🛠 Stack & strengths
+### 📱 Live on the App Store
 
-- **iOS**: SwiftUI, Swift 6 concurrency, SwiftData & CoreData, CloudKit, RevenueCat, Firebase, App Store Connect automation
-- **Web**: Next.js, Supabase, BullMQ, Vercel
-- **Product**: paywalls, onboarding, subscription pricing, ASO, App Store strategy
-- **Currently learning**: visionOS, advanced SwiftUI animations, clean architecture for long-term scaling
+<table>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <h3><a href="https://apps.apple.com/app/apple-store/id6756065960?pt=57180800&ct=github&mt=8"><img src="assets/icons/fridgea.png" width="72" alt="Fridgea icon"></a><br>Fridgea<br><sub>Fridge &amp; Grocery List</sub></h3>
+      <p>Know what's in your fridge. Expiry reminders, a shopping list shared with the family and AI recipes from what you already have.</p>
+      <code>SwiftUI</code> <code>Core&nbsp;Data&nbsp;+&nbsp;CloudKit</code> <code>WidgetKit</code> <code>RevenueCat</code> <code>Vertex&nbsp;AI</code>
+      <p><a href="https://apps.apple.com/app/apple-store/id6756065960?pt=57180800&ct=github&mt=8">App Store</a> · <a href="https://fridgea.online">Website</a></p>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <h3><a href="https://apps.apple.com/app/apple-store/id6799502565?pt=57180800&ct=github&mt=8"><img src="assets/icons/fogged.png" width="72" alt="Fogged icon"></a><br>Fogged<br><sub>Travel Photo Map</sub></h3>
+      <p>Your photos clear the fog off a world map, one place at a time. Trips build themselves. No account, no server: photos never leave the iPhone.</p>
+      <code>SwiftUI</code> <code>SwiftData</code> <code>PhotoKit</code> <code>MapKit</code>
+      <p><a href="https://apps.apple.com/app/apple-store/id6799502565?pt=57180800&ct=github&mt=8">App Store</a> · <a href="https://fogged.app">Website</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <h3><a href="https://apps.apple.com/app/apple-store/id6741020820?pt=57180800&ct=github&mt=8"><img src="assets/icons/pilottestzone.png" width="72" alt="PilotTestZone icon"></a><br>PilotTestZone<br><sub>PPL Exam Prep</sub></h3>
+      <p>Prep for the Polish ULC PPL(A) theory exam: the full question bank, weak-topic analytics and official exam dates.</p>
+      <code>SwiftUI</code> <code>Core&nbsp;Data</code> <code>Swift&nbsp;Charts</code> <code>Live&nbsp;Activities</code> <code>RevenueCat</code>
+      <p><a href="https://apps.apple.com/app/apple-store/id6741020820?pt=57180800&ct=github&mt=8">App Store</a> · <a href="https://pilottestzone.com">Website</a></p>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <h3><a href="https://apps.apple.com/app/apple-store/id6785313453?pt=57180800&ct=github&mt=8"><img src="assets/icons/lights-out.png" width="72" alt="Lights Out icon"></a><br>Lights Out<br><sub>Mafia Table Game</sub></h3>
+      <p>The classic Mafia party game with one phone as the narrator, so nobody has to sit out as the host. Works offline.</p>
+      <code>SwiftUI</code> <code>SwiftData</code> <code>AVFoundation</code>
+      <p><a href="https://apps.apple.com/app/apple-store/id6785313453?pt=57180800&ct=github&mt=8">App Store</a> · <a href="https://artem-alexandrov.github.io/mafia_landing/">Website</a></p>
+    </td>
+  </tr>
+</table>
 
-### 👯 Open to collaborate on
+### 🌐 On the web
 
-- Educational apps — aviation, pilot training, test prep
-- SwiftUI open-source tools & design systems
-- Creator-economy software
-- Short-session mobile games
+<table>
+  <tr>
+    <td align="center" valign="top">
+      <h3><a href="https://growly.social"><img src="assets/icons/growly.png" width="72" alt="Growly icon"></a><br>Growly<br><sub>Threads scheduler for creators</sub></h3>
+      <p>Post on Threads every day without living in the app: recurring posting slots, a draft pool and per-post analytics.</p>
+      <code>Next.js</code> <code>Supabase</code> <code>Redis&nbsp;+&nbsp;BullMQ</code> <code>Threads&nbsp;API</code>
+      <p><a href="https://growly.social">Website</a></p>
+    </td>
+  </tr>
+</table>
+
+---
+
+### 🤝 Work with me
+
+- An iOS app MVP, taken all the way to the App Store
+- Subscriptions, paywalls and onboarding (RevenueCat, StoreKit)
+- Core Data or SwiftData sync over CloudKit, including data shared with family
+- ASO, App Store Connect and release automation
+- A landing page or a small backend next to the app (Next.js, Astro, Supabase)
+
+Get in touch through [aleksandrov.cv](https://aleksandrov.cv).
+
+### 🛠 Stack
+
+![Swift](https://img.shields.io/badge/Swift-F05138?logo=swift&logoColor=white)
+![SwiftUI](https://img.shields.io/badge/SwiftUI-0D96F6?logo=apple&logoColor=white)
+![SwiftData](https://img.shields.io/badge/SwiftData-555?logo=apple&logoColor=white)
+![CloudKit](https://img.shields.io/badge/CloudKit-3693F3?logo=icloud&logoColor=white)
+![RevenueCat](https://img.shields.io/badge/RevenueCat-F2545B?logo=revenuecat&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-DD2C00?logo=firebase&logoColor=white)
+<br>
+![Next.js](https://img.shields.io/badge/Next.js-000?logo=nextdotjs&logoColor=white)
+![Astro](https://img.shields.io/badge/Astro-BC52EE?logo=astro&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?logo=supabase&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-FF4438?logo=redis&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000?logo=vercel&logoColor=white)
+![Railway](https://img.shields.io/badge/Railway-0B0D0E?logo=railway&logoColor=white)
+
+**Product:** paywalls, onboarding, subscription pricing, ASO, App Store strategy.
 
 ### 💬 Ask me about
 
-- Core Data ⇄ CloudKit shared zones (and how to not lose data)
-- SwiftUI performance & state design
-- Monetization with ads + subscriptions on iOS
+- Core Data ⇄ CloudKit shared zones (and how not to lose data)
+- SwiftUI performance and state design
+- Monetization with ads and subscriptions on iOS
 - Shipping indie apps solo
 
 ---
 
-⚡ **Fun fact:** I taught Core Data persistence to a pigeon. It still crashes less than my first app.
+⚡ **Fun fact:** the iPad at the top isn't a mockup, it's my portfolio. When Apple reviews one of my apps, a Live Activity shows up on its lock screen and follows the review until the update is live.
