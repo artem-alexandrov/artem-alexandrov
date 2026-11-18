@@ -6,7 +6,7 @@
 
 Freelance iOS developer. I design, build and ship native iPhone apps in SwiftUI, from the first prototype to App Store release, subscriptions and growth.
 
-Every app below is my own: designed, built, launched and maintained solo.
+Every app below except WhyBee is my own: designed, built, launched and maintained solo. WhyBee is a team project of three.
 
 🌐 [aleksandrov.cv](https://aleksandrov.cv) · 💼 [LinkedIn](https://www.linkedin.com/in/artem-aleksandrov-ios/) · 🧵 [Threads](https://www.threads.com/@artem.aleksandrovv) · 📍 Remote, CET · 🗣 English, Russian, Ukrainian
 
@@ -54,6 +54,20 @@ Every app below is my own: designed, built, launched and maintained solo.
       <p>Post on Threads every day without living in the app: recurring posting slots, a draft pool and per-post analytics. Multiple accounts and AI post ideas built in.</p>
       <code>Next.js</code> <code>Supabase</code> <code>Redis&nbsp;+&nbsp;BullMQ</code> <code>Threads&nbsp;API</code>
       <p><a href="https://growly.social">Website</a></p>
+    </td>
+  </tr>
+</table>
+
+### 👥 Team project
+
+<table>
+  <tr>
+    <td align="center" valign="top">
+      <h3><a href="https://apps.apple.com/app/apple-store/id6794294142?pt=57180800&ct=github&mt=8"><img src="assets/icons/whybee.png" width="72" alt="WhyBee icon"></a><br>WhyBee<br><sub>Kids Encyclopedia</sub></h3>
+      <p>Kids ask anything by voice or text and get an answer at their age, read aloud by a friendly bee. Moderated answers, on-device speech recognition and a PIN-protected parent zone.</p>
+      <p><sub>Team of 3</sub></p>
+      <code>SwiftUI</code> <code>Speech</code> <code>AVFoundation</code> <code>RevenueCat</code> <code>Supabase</code> <code>Go</code> <code>Claude&nbsp;API</code>
+      <p><a href="https://apps.apple.com/app/apple-store/id6794294142?pt=57180800&ct=github&mt=8">App Store</a></p>
     </td>
   </tr>
 </table>
